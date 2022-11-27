@@ -15,38 +15,38 @@
     <body style="background: url('../static/Group 11.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
         <!-- Start header -->
         <div class="text-center py-3">
-            <img height="60px" class="img-fluid" src="../static/logo.png" alt="" />
+            <img height="60px" class="image-fluid" src="../static/logo.png" alt="" />
         </div>
 
         <!-- Start navbar -->
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3 bg-card">
                 <div class="container text-center">
                     <div class="w-100">
                         <div class="d-flex justify-content-between" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Ivan Andika</a>
+                                    <a class="nav-link active" aria-current="page" href="#">{{ username }}</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link {{   'active' if active_page == 'home' else ''   }}" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Company</a>
+                                    <a class="nav-link {{   'active' if active_page == 'company' else ''   }}" href="/company">Company</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Report</a>
+                                    <a class="nav-link {{   'active' if active_page == 'report' else ''   }}" href="/report">Report</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Transaction</a>
+                                    <a class="nav-link {{   'active' if active_page == 'transaction' else ''   }}" href="/transaction">Transaction</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Setting</a>
+                                    <a class="nav-link {{   'active' if active_page == 'setting' else ''   }}" href="/setting">Setting</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Help</a>
+                                    <a class="nav-link {{   'active' if active_page == 'help' else ''   }}" href="/help">Help</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav">

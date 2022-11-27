@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% set active_page = "transaction" %}
+{% block content %}
+    <div class="container py-5">
+        <table class="w-100 table table-light text-center">
+            <thead>
+                <tr>
+                    <th colspan="8">Laporan Penjualan Harian Per 30 November 2022</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Waktu Transaksi</td>
+                    <td>No. Order</td>
+                    <td>Pelanggan</td>
+                    <td>Sub Total</td>
+                    <td>Diskon</td>
+                    <td>Total Penjualan</td>
+                    <td>Pembayaran</td>
+                    <td>Metode</td>
+                </tr>
+                <tr>
+                    <td>09:38:20 AM</td>
+                    <td>1</td>
+                    <td>AB</td>
+                    <td>Rp5,000,000</td>
+                    <td>Rp0</td>
+                    <td>Rp5,000,000</td>
+                    <td>Rp5,000,000</td>
+                    <td>Tunai</td>
+                </tr>
+                <tr>
+                    <td>11:25:18 AM</td>
+                    <td>2</td>
+                    <td>SR</td>
+                    <td>Rp2,000,000</td>
+                    <td>Rp20,000</td>
+                    <td>Rp1,980,000</td>
+                    <td>Rp1,980,000</td>
+                    <td>QRIS</td>
+                </tr>
+                <tr>
+                    <td>15:29:33 AM</td>
+                    <td>3</td>
+                    <td>AU</td>
+                    <td>Rp3,500,000</td>
+                    <td>Rp0</td>
+                    <td>Rp3,500,000</td>
+                    <td>Rp3,500,000</td>
+                    <td>Kartu Kredit BCA</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-between">
+            <a class="btn btn-link link-light text-decoration-none" href=""><< 29 November 2022</a>
+            <a class="btn btn-link link-light text-decoration-none" href="">1 Desember 2022 >></a>
+        </div>
+    </div>
+{% endblock %}

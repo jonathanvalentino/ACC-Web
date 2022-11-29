@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+{% set active_page = "report" %}
+{% block content %}
+    <div class="row justify-content-center">
+        <div class="container h-100 w-50">
+            <table class="table-borderless" cellspacing="0" cellpadding="0">
+            <tr>
+            <td>
+            <table class="table table-bordered w-100 text-light">
+                <tr><td>Cabang</td><td>ACC Store Franchise Cabang Karawaci</td></tr>
+                <tr><td>Tanggal Soft Opening</td><td>20 November 2022</td></tr>
+                <tr><td>Target Omset</td><td>Rp150,000,000</td></tr>
+                <tr><td>Gross Margin</td><td>20%</td></tr>
+            </table>
+            </td>
+            <td>
+                <table class="table table-bordered w-100 text-light ms-4">
+                <tr><td colspan="2">Keterangan</td></tr>
+                <tr><td class="table-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>Pencapaian < 50%</td></tr>
+                <tr><td class="table-warning"></td><td>Pencapaian < 100%</td></tr>
+                <tr><td class="table-success"></td><td>Pencapaian > 100%</td></tr>
+            </table>  
+            </td>
+            </tr>
+            <table class="table table-bordered w-100">
+                <thead class="text-light text-center">
+                    <tr>
+                    <th rowspan ="2">Hari</th>
+                    <th rowspan ="2">Tanggal</th>
+                    <th rowspan ="2">Target Harian</th>
+                    <th colspan="2">Omzet</th>
+                    </tr>
+                    <tr>
+                    <th>Total Penjualan Internal</th>
+                    <th>% Pencapaian</th>
+                    </tr>
+                </thead>
+            <tbody class="text-light">
+            <tr><td>Senin</td><td>1 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Selasa</td><td>2 Desember 2022</td><td>Rp5,000,000</td><td>Rp7,000,000</td><td class="table-warning">88%</td></tr>
+            <tr><td>Rabu</td><td>3 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Kamis</td><td>4 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Jumat</td><td>5 Desember 2022</td><td>Rp5,000,000</td><td>Rp4,000,000</td><td class="table-danger">40%</td></tr>
+            <tr><td>Sabtu</td><td>6 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Minggu</td><td>7 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Senin</td><td>8 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Selasa</td><td>9 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Rabu</td><td>10 Desember 2022</td><td>Rp5,000,000</td><td>Rp7,000,000</td><td class="table-warning">88%</td></tr>
+            <tr><td>Kamis</td><td>11 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Jumat</td><td>12 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Sabtu</td><td>13 Desember 2022</td><td>Rp5,000,000</td><td>Rp4,000,000</td><td class="table-danger">40%</td></tr>
+            <tr><td>Minggu</td><td>14 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Senin</td><td>15 Desember 2022</td><td>Rp5,000,000</td><td>Rp7,000,000</td><td class="table-warning">88%</td></tr>
+            <tr><td>Selasa</td><td>16 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Rabu</td><td>17 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Kamis</td><td>18 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Jumat</td><td>19 Desember 2022</td><td>Rp5,000,000</td><td>Rp4,000,000</td><td class="table-danger">40%</td></tr>
+            <tr><td>Sabtu</td><td>20 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Minggu</td><td>21 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Senin</td><td>22 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Selasa</td><td>23 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Rabu</td><td>24 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Kamis</td><td>25 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Jumat</td><td>26 Desember 2022</td><td>Rp5,000,000</td><td>Rp7,000,000</td><td class="table-warning">88%</td></tr>
+            <tr><td>Sabtu</td><td>27 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Minggu</td><td>28 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Senin</td><td>29 Desember 2022</td><td>Rp5,000,000</td><td>Rp7,000,000</td><td class="table-warning">88%</td></tr>
+            <tr><td>Selasa</td><td>30 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            <tr><td>Rabu</td><td>31 Desember 2022</td><td>Rp5,000,000</td><td>Rp10,000,000</td><td class="table-success">220%</td></tr>
+            </tbody></table>
+    </div>
+</div>
+{% endblock %}

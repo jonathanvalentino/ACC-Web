@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% set active_page = "report" %}
+{% block content %}
+<div class="row justify-content-center">
+        <div class="container h-100 w-50">
+            <table class="table-borderless mt-3" cellspacing="0" cellpadding="0">
+            <tr>
+            <td>
+            <table class="table table-bordered w-100 text-light">
+                <tr><td colspan="2" style="font-size:90%">STOCK REPORT PER TANGGAL 31 DESEMBER 2022</td></tr>
+                <tr><td>Jumlah Item FM: 10 Item</td></tr>
+            </table>
+            </td>
+            <td>
+                <table class="table table-bordered w-100 text-light ms-4">
+                <tr><td>LOKASI: ACC Store Franchise Cabang Karawaci</td></tr>
+            </table>  
+            </td>
+            </tr>
+            <table class="table table-bordered w-100 mt-4 text-light">
+            <thead class="text-center"><tr><th>No.</th><th>Kode Produk</th><th>Keterangan</th><th>Qty Sales Per Day</th><th>Cost Barang</th><th>Jumlah Stok</th><th>Nilai </th></tr></thead><tbody>
+            <tr><td>1</td><td>1011200201</td><td>Cincin A </td><td>0.22</td><td>Rp5,000,000</td><td>3</td><td>15,000,000.00</td></tr>
+            <tr><td>2</td><td>1011200202</td><td>Cincin B</td><td>0.23</td><td>Rp4,500,000</td><td>49</td><td>220,500,000.00</td></tr>
+            <tr><td>3</td><td>1011200203</td><td>Kalung 6</td><td>0.24</td><td>Rp300,000</td><td>30</td><td>9,000,000.00</td></tr>
+            <tr><td>4</td><td>1011200204</td><td>Kalung 7</td><td>6.78</td><td>Rp400,000</td><td>51</td><td>20,400,000.00</td></tr>
+            <tr><td>5</td><td>1011200205</td><td>Gelang 1</td><td>6.79</td><td>Rp500,000</td><td>52</td><td>26,000,000.00</td></tr>
+            <tr><td>6</td><td>1011200206</td><td>Gelang 2</td><td>6.8</td><td>Rp600,000</td><td>23</td><td>13,800,000.00</td></tr>
+            <tr><td>7</td><td>1011200207</td><td>Gelang 3</td><td>6.81</td><td>Rp700,000</td><td>21</td><td>14,700,000.00</td></tr>
+            <tr><td>8</td><td>1011200208</td><td>Gelang 4</td><td>6.82</td><td>Rp800,000</td><td>36</td><td>28,800,000.00</td></tr>
+            <tr><td>9</td><td>1011200209</td><td>Gelang 5</td><td>0.3</td><td>Rp900,000</td><td>56</td><td>50,400,000.00</td></tr>
+            <tr><td>10</td><td>1011200210</td><td>Gelang 6</td><td>0.31</td><td>Rp1,000,000</td><td>57</td><td>57,000,000.00</td></tr>
+            <tr><td>11</td><td>1011200211</td><td>Gelang 7</td><td>0.32</td><td>Rp1,100,000</td><td>7</td><td>7,700,000.00</td></tr>
+            <tr><td>12</td><td>1011200212</td><td>Gelang 8</td><td>3.5</td><td>Rp1,200,000</td><td>8</td><td>9,600,000.00</td></tr>
+            <tr><td>13</td><td>1011200213</td><td>Gelang 9</td><td>3.6</td><td>Rp1,300,000</td><td>9</td><td>11,700,000.00</td></tr>
+            <tr><td>14</td><td>1011200214</td><td>Gelang 10</td><td>3.7</td><td>Rp1,400,000</td><td>0</td><td>0.00</td></tr>
+            <tr><td>15</td><td>1011200215</td><td>Liontin 1</td><td>3.8</td><td>Rp1,500,000</td><td>0</td><td>0.00</td></tr>
+            <tr><td>16</td><td>1011200216</td><td>Liontin 2</td><td>3.9</td><td>Rp786,000</td><td>12</td><td>9,432,000.00</td></tr>
+            <tr><td>17</td><td>1011200217</td><td>Liontin 3</td><td>4</td><td>Rp787,000</td><td>13</td><td>10,231,000.00</td></tr>
+            <tr><td>18</td><td>1011200218</td><td>Liontin 4</td><td>4.1</td><td>Rp788,000</td><td>14</td><td>11,032,000.00</td></tr>
+            <tr><td>19</td><td>1011200219</td><td>Kalung 1</td><td>0.191</td><td>Rp789,000</td><td>15</td><td>11,835,000.00</td></tr>
+            <tr><td>20</td><td>1011200220</td><td>Kalung 2</td><td>0.192</td><td>Rp790,000</td><td>16</td><td>12,640,000.00</td></tr>
+            <tr><td>21</td><td>1011200221</td><td>Kalung 3</td><td>0.193</td><td>Rp791,000</td><td>91</td><td>71,981,000.00</td></tr>
+            <tr><td>22</td><td>1011200222</td><td>Kalung 4</td><td>2.8</td><td>Rp792,000</td><td>0</td><td>0.00</td></tr>
+            <tr><td>23</td><td>1011200223</td><td>Kalung 5</td><td>2.9</td><td>Rp793,000</td><td>0</td><td>0.00</td></tr>
+            <tr><td>24</td><td>1011200224</td><td>Kalung 6</td><td>3</td><td>Rp794,000</td><td>1</td><td>794,000.00</td></tr>
+            <tr><td>25</td><td>1011200225</td><td>Cincin D</td><td>3.1</td><td>Rp795,000</td><td>2</td><td>1,590,000.00</td></tr>
+            <tr><td>26</td><td>1011200226</td><td>Cincin E</td><td>0.198</td><td>Rp796,000</td><td>5</td><td>3,980,000.00</td></tr>
+            <tr><td>27</td><td>1011200227</td><td>Kalung 9</td><td>0.199</td><td>Rp797,000</td><td>7</td><td>5,579,000.00</td></tr>
+            </tbody></table>
+    </div>
+</div>
+{% endblock %}
